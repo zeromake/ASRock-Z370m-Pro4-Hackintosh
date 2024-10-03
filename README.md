@@ -1,6 +1,7 @@
 # ASRock-Z370m-Pro4-Hackintosh
 
-~~暂时目标是让 macOS Monterey 跑起来~~在 `macOS Sequoia` 正常运行。
+~~暂时目标是让 macOS Monterey 跑起来~~
+在 `macOS Sequoia` 正常运行。
 
 ## 详细配置
 
@@ -37,6 +38,7 @@
 - [x] 参考国光教程把 config.plist 更新了一遍
 - [x] 参考国光教程把自定义 USB 驱动
 - [x] 尝试更新到 `macOS Sequoia` 或者 `macOS Sonoma`(成功在 macOS Sequoia 运行成功，macOS Sonoma 就不试了)
+- [x] 改用无头核显 ID
 
 ## 参考
 
@@ -46,3 +48,4 @@
 - [OC 官方提供的 Kexts 汇总](https://dortania.github.io/builds/)
 - [OSX 上在旧系统中下载新系统的方法，记得翻墙](https://github.com/ninxsoft/Mist)
 - [OpenCore 提供的 Patch 工具](https://github.com/dortania/OpenCore-Legacy-Patcher)
+- [核显 ID 列表](https://blog.daliansky.net/Intel-core-display-platformID-finishing.html)
