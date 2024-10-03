@@ -1,6 +1,6 @@
 # ASRock-Z370m-Pro4-Hackintosh
 
-暂时目标是让 macOS Monterey 跑起来
+~~暂时目标是让 macOS Monterey 跑起来~~在 `macOS Sequoia` 正常运行。
 
 ## 详细配置
 
@@ -18,7 +18,7 @@
 
 ## BIOS 设置
 
-- 高级 -> CPU 配置 -> CFG Lock -- 关闭
+- 高级 -> CPU 配置 -> CFG Lock -- 关闭（十分关键，不关闭会出现卡 EB，或者在 ACPI Error 错误后卡住，当时查了一天也没找到 ACPI Error 错误后卡住的原因）
 - 高级 -> CPU 配置 -> Intel 虚拟化技术 -- 开启
 - 引导 -> 闪速启动 -- 关闭
 - ~~高级 -> USB 配置 -> XHCI Hand-off -- Enabled~~
@@ -34,9 +34,9 @@
 
 - [x] 更新 Kexts
 - [x] 更新 OpenCore 到 1.0.1-RELEASE
-- [x] 参考国光教程把 config.plist 更新了一边
+- [x] 参考国光教程把 config.plist 更新了一遍
 - [x] 参考国光教程把自定义 USB 驱动
-- [ ] 尝试更新到 `macOS Sequoia` 或者 `macOS Sonoma`
+- [x] 尝试更新到 `macOS Sequoia` 或者 `macOS Sonoma`(成功在 macOS Sequoia 运行成功，macOS Sonoma 就不试了)
 
 ## 参考
 
