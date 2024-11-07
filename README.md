@@ -34,11 +34,13 @@
 > 参考 [ASRock-Z370-Pro4-Hackintosh](https://github.com/athlonreg/ASRock-Z370-Pro4-Hackintosh)
 
 - [x] 更新 Kexts
-- [x] 更新 OpenCore 到 1.0.1-RELEASE
+- [x] 更新 OpenCore 到 1.0.2-RELEASE
 - [x] 参考国光教程把 config.plist 更新了一遍
 - [x] 参考国光教程把自定义 USB 驱动
 - [x] 尝试更新到 `macOS Sequoia` 或者 `macOS Sonoma`(成功在 macOS Sequoia 运行成功，macOS Sonoma 就不试了)
-- [x] 改用无头核显 ID
+- [x] ~~改用无头核显 ID~~(无法正确在 Hackintool 显示，改回去了)
+- [x] 使用 SSDT 屏蔽所有设备的唤醒，现在可以正常休眠了，只能通过电源按钮唤醒（应该屏蔽除 USB 的唤醒，现在不清楚为什么定制了 USB 依旧会自动唤醒）
+- [ ] 让 usb 鼠标键盘支持休眠唤醒
 
 ## 参考
 
