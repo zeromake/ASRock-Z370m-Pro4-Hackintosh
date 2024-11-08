@@ -19,7 +19,10 @@
 
 ## BIOS 设置
 
-- 高级 -> CPU 配置 -> CFG Lock -- 关闭（十分关键，不关闭会出现卡 EB，或者在 ACPI Error 错误后卡住，当时查了一天也没找到 ACPI Error 错误后卡住的原因）
+- 高级 -> CPU 配置 -> CFG Lock -- 关闭（不关闭会出现卡 EB 或者把以下三个选项打开，这个 config.plist 已经打开，可以不关闭）
+    + Kernel->Quirks->AppleCpuPmCfgLock
+    + Kernel->Quirks->AppleXcpmCfgLock
+    + UEFI->Quirks->IgnoreInvalidFlexRatio
 - 高级 -> CPU 配置 -> Intel 虚拟化技术 -- 开启
 - 引导 -> 闪速启动 -- 关闭
 - ~~高级 -> USB 配置 -> XHCI Hand-off -- Enabled~~
