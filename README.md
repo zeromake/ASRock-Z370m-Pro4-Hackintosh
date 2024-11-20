@@ -43,6 +43,7 @@
 - [x] 尝试更新到 `macOS Sequoia` 或者 `macOS Sonoma`(成功在 macOS Sequoia 运行成功，macOS Sonoma 就不试了)
 - [x] ~~改用无头核显 ID~~(无法正确在 Hackintool 显示，改回去了)
 - [x] 使用 SSDT 屏蔽所有设备的唤醒，现在可以正常休眠了，只能通过电源按钮唤醒（应该屏蔽除 USB 的唤醒，现在不清楚为什么定制了 USB 依旧会自动唤醒）
+- [x] 开启 `__ZN8AppleRTC18setupDateTimeAlarmEPK11RTCDateTime` 补丁，发现电脑有不定时自动唤醒，发现是 `RTC` 开启补丁后就没有自动唤醒了。
 - [ ] 让 usb 鼠标键盘支持休眠唤醒
 
 ## 参考
